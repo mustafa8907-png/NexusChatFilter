@@ -1,0 +1,7 @@
+messages:
+  prefix: "<gradient:#b92b27:#1565c0>[NexusChatFilter]</gradient> "
+  no-permission: "<red>You do not have permission to execute this command.</red>"
+  reload-success: "<green>Configuration files reloaded successfully!</green>"
+  anti-caps-warning: "<gradient:#ff4e50:#f9d423><bold>AntiCaps</bold></gradient> <dark_gray>»</dark_gray> <red>Please do not use all capital letters. Your message was automatically converted to lowercase.</red>"
+  # Internal warning message used when a Tier action is set to "warn"
+  tier-warning: "<gradient:#ff4e50:#f9d423><bold>Filter</bold></gradient> <dark_gray>»</dark_gray> <red>Please watch your language! Such words are not allowed on this server.</red>"

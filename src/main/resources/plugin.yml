@@ -1,0 +1,22 @@
+name: NexusChatFilter
+version: 1.0.0
+main: com.mustafa8907.nexuschatfilter.NexusChatFilter
+api-version: 1.16
+author: mustafa8907
+description: A lightweight, MiniMessage supported chat filter for Spigot/Bukkit.
+website: https://mustafa8907.com.tr
+
+commands:
+  nexusfilter:
+    description: Main command for NexusChatFilter.
+    usage: /nexusfilter <reload>
+    permission: nexuschatfilter.admin
+    permission-message: §cYou do not have permission to execute this command.
+
+permissions:
+  nexuschatfilter.admin:
+    description: Allows reloading the plugin configuration files.
+    default: op
+  nexuschatfilter.bypass.*:
+    description: Allows bypassing all chat filters and anti-caps.
+    default: op

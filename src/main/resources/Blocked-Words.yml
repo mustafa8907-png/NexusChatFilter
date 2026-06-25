@@ -1,0 +1,16 @@
+# Heavy profanity and very offensive words (Triggers Tier 1 Action)
+tier-1:
+  - "cok pislik kelime"
+
+# Basic swear words and advertising links (Triggers Tier 2 Action)
+tier-2:
+  - "küfür"
+  - "ads"
+  - ".com"
+  - ".net"
+  - ".org"
+
+# Minor offensive words / stupid and idiot (Triggers Tier 3 Action -> Internal Warning)
+tier-3:
+  - "idiot"
+  - "aptal"

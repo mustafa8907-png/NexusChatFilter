@@ -1,0 +1,22 @@
+settings:
+  enabled: true
+  # Bypass permissions format: nexuschatfilter.bypass.<role>
+  bypass-roles:
+    - "admin"
+    - "mod"
+    - "helper"
+
+anti-caps:
+  enabled: true
+  # The percentage of uppercase letters required to trigger the filter
+  threshold-percentage: 70
+  # Options: ban, warning, mute
+  type: "warning"
+
+# Actions taken when a word from a specific tier is caught.
+# You can type a console command (e.g., "ban %player% ...") 
+# OR use "warn" to send the internal plugin message defined in messages.yml
+actions:
+  tier-1: "ban %player% 10d <red>You were banned for displaying severe profanity."
+  tier-2: "mute %player% 2d <red>You have been muted for 2 days for using blocked words or advertising."
+  tier-3: "warn"
